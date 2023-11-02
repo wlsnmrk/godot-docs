@@ -35,7 +35,7 @@ look like this.
 .. code-block:: glsl
 
   void fragment() {
-    COLOR = some_color;
+    ALBEDO = some_color;
   }
 
 .. note::
@@ -70,7 +70,7 @@ are seven different processor functions.
    :ref:`spatial shaders <doc_spatial_shader>`.
 
 4. The ``start()`` function runs for every particle in a particle system once
-   when the particle is first spawned. Used in 
+   when the particle is first spawned. Used in
    :ref:`particles shaders <doc_particle_shader>`.
 
 5. The ``process()`` function runs for every particle in a particle system for
